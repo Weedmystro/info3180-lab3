@@ -5,12 +5,12 @@ Werkzeug Documentation:  http://werkzeug.pocoo.org/documentation/
 This file creates your application.
 """
 
-# from app import mail
-# from flask_mail import Message 
+from app import mail
+from flask_mail import Message 
 from app import app
 from flask import render_template, request, redirect, url_for, flash
-# from wtforms.validators import DataRequired
-# from .forms import ContactForm
+from wtforms.validators import DataRequired
+from .forms import ContactForm
 
 ###
 # Routing for your application.
