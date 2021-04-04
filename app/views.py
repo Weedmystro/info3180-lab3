@@ -16,7 +16,7 @@ from flask import render_template, request, redirect, url_for, flash
 # Routing for your application.
 ###
 
-#app.config['SECRET_KEY'] = 'thecodex'
+
 
 @app.route('/')
 def home():
