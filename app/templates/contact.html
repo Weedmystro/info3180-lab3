@@ -10,7 +10,7 @@
     
 </header>
 
-<form method="POST" action= "/">
+<form method="POST" action= "{{ url_for('contact') }}">
 
     {{form.csrf_token}}
 
@@ -22,7 +22,7 @@
 
     {{form.subject.label}}
     {{form.subject(size=50)}}
-
+    
     {{form.message.label}}
     {{form.message(size=280)}}
 
